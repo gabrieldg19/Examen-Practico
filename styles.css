@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #e3f2fd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2baf2b;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2baf2b;
+    font-weight: bold;
+}
+
+.signup-btn {
+    padding: 8px 15px;
+    border: none;
+    background: #2baf2b;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e3f2fd;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Pricing Section */
+.pricing {
+    display: flex;
+    justify-content: center;
+    background: #e3f2fd;
+    gap: 20px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    text-align: auto;
+
+}
+.plan {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.pricing h3{
+    color: #2baf2b;
+    font-size: 24px;
+    font-weight: bold;
+}
+.pricing h1{
+    color: #2baf2b;
+    font-size: 36px;
+    font-weight: bold;
+}
+.pricing li{
+    margin: 10px 0;
+    width: 250px;
+    text-align: left;
+}
+.recommended{
+    padding: 10px 20px;
+    border: none;
+    background: #2baf2b;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #161d1673;;
+    text-align: center;
+}
+
+.footer-button {
+    padding: 10px 20px;
+    border: none;
+    background: #2baf2b;
+    color: #070a07;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Testimonial */
+.testimonial {
+    background: #e3f2fd;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+}
+.author{
+    font-weight: bold;
+    color: #2baf2b;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 20px;
+    background: #f9f9f9;
+}
+.question {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    max-width: 800px;
+    margin: auto;
+}
+
+.question h4 {
+    font-size: 18px;
+    color: #161d16
+}
+
+/* Footer */
+.footer {
+    background: #040214;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer a {
+    color: #2baf2b;
+    text-decoration: none;
+}
+
+.footer-logo {
+    color: #2baf2b;
+    font-size: 24px;
+    max-width: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.footer-links-column {
+    text-align: left;
+}
+
+.footer-links-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-button{
+    padding: 10px 20px;
+    border: none;
+    background: #2baf2b;
+    color: #070a07;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.footer-bottom {
+    color: rgba(255, 255, 255, 0.425);
+    padding: 10px;
+    max-width: 650px;
+    text-align: auto;
+}
