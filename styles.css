@@ -112,6 +112,7 @@ nav a {
     text-align: center;
 }
 
+
 /* Testimonial */
 .testimonial {
     background: #e3f2fd;
@@ -125,28 +126,34 @@ nav a {
 }
 
 /* FAQ Section */
-.faq {
-    padding: 20px;
+.faq{
     background: #f9f9f9;
+    padding: 20px 250px;
+    text-align: auto;
+}
+.faq-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+}
+.faq-container h2 {
+    grid-column: span 2;
 }
 .question {
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-    max-width: 800px;
-    margin: auto;
+    font-weight: bold;
 }
-
-.question h4 {
-    font-size: 18px;
-    color: #161d16
+.answer {
+    margin-top: 5px;
+    color: #333;
 }
 
 /* Footer */
 .footer {
     background: #040214;
     color: white;
-    padding: 40px;
-    text-align: center;
+    padding:  20px 250px;
+    text-align: auto;
 }
 
 .footer a {
@@ -164,9 +171,10 @@ nav a {
 
 .footer-links {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin: 20px 0;
+    justify-content: auto;
+    gap: 70px;
+    margin:10px 500px;
+    text-align: auto;
 }
 
 .footer-links-column {
@@ -175,10 +183,11 @@ nav a {
 
 .footer-links-title {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
+
 .footer-button{
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: none;
     background: #2baf2b;
     color: #070a07;
